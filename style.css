@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1275&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.5em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.search-bar {
+    border: none;
+    background-color: #7c7c7c2b;
+    padding: 0.5em;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 120%;
+    width: 100%;
+}
+
+button {
+    border: none;
+    border-radius:5px;
+    height: 3.5em;
+    width: 5em;
+    margin-left: 10px;
+    background-color: #7c7c7c2d;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+.description{
+    text-transform: capitalize;
+    margin-left: 6px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+h1.temp{
+    margin: 0px;
+    margin-bottom: 0.4em;
+}
